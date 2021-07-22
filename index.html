@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Assignment</title>
+  </head>
+  <body>
+    <section class="section section-bar">
+      <div class="header">
+        <h1 class="header__text">Bar Chart</h1>
+      </div>
+      <div class="barchart">
+        <div barchart__chart>
+          <canvas id="myCanvas"></canvas>
+        </div>
+        <div class="box">
+          <div class="barchart__names">
+            <span class="chart-box box1"></span>
+            <h4 class="chart-box__name name1">Aditya</h4>
+          </div>
+          <div class="barchart__names">
+            <span class="chart-box box2"></span>
+            <h4 class="chart-box__name name2">Alex</h4>
+          </div>
+          <div class="barchart__names">
+            <span class="chart-box box3"></span>
+            <h4 class="chart-box__name name2">Andrew</h4>
+          </div>
+          <div class="barchart__names">
+            <span class="chart-box box4"></span>
+            <h4 class="chart-box__name name2">Sara</h4>
+          </div>
+        </div>
+      </div>
+      <div class="home__scroll">
+        <span class="home__scroll-text">Scroll down for Pie Chart</span>
+        <a href="#1-section"
+          ><img src="bx-mouse.svg" alt="" class="home__scroll-icon"
+        /></a>
+      </div>
+    </section>
+    <section class="section section-pie" id="1-section">
+      <div class="header pie__header">
+        <h1 class="header__text">A Pie Chart</h1>
+      </div>
+      <div class="piechart">
+        <canvas id="pie" width="800" height="500"></canvas>
+      </div>
+    </section>
+    <footer class="footer">
+      Made by
+      <a href="https://www.linkedin.com/in/theaditya-yaduvanshi-/">
+        Aditya Yaduvanshi
+      </a>
+      as assignment for
+      <a href="https://www.getgologistics.com/"
+        >GetGo Logistics Private Limited.</a
+      >
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

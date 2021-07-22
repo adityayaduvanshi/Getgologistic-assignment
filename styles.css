@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: #fca4a6; */
+  background-image: linear-gradient(to right bottom, #ec008c, #fc6767);
+  margin: 3rem 0 0 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  font-weight: 500;
+  color: #fcf8f8;
+}
+a {
+  text-decoration: none;
+  color: #fcf8f8;
+}
+a:hover {
+  color: #08d9d6;
+}
+
+.barchart__names {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.chart-box__name {
+  margin-left: 0.21rem;
+}
+
+.barchart {
+  text-align: center;
+  margin-top: 10vh;
+}
+.chart-box {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 2rem;
+}
+.home__scroll {
+  margin-left: 2.5rem;
+}
+.home__scroll-icon {
+  color: #fff;
+}
+.box1 {
+  background-color: #252a34;
+}
+.box2 {
+  background-color: #08d9d6;
+}
+.box3 {
+  background-color: #ff2e63;
+}
+.box4 {
+  background-color: #ffcd3c;
+}
+.box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+.header__text {
+  font-size: 3rem;
+}
+.pie__header {
+  margin-top: 7rem;
+}
+.piechart {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  padding: 4rem;
+  font-family: "Poppins", sans-serif;
+}
